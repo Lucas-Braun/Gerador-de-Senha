@@ -1,0 +1,105 @@
+html, body {
+    height: 70%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%; /* Ou uma largura específica, se você preferir */
+    max-width: 400px; /* Isso vai garantir que o formulário não fique muito largo */
+    margin-left: auto; /* Novo - isso alinhará o formulário à direita */
+    margin-right: auto; /* Novo - isso alinhará o formulário à esquerda */
+    margin-bottom: 10px;
+}
+
+label {
+margin-right: 10px;
+}
+
+input[type=number] {
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 8px;
+margin-right: 15px;
+}
+
+input[type=checkbox] {
+margin-right: 5px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: auto; /* Novo - isso centralizará o botão */
+    display: block; /* Novo - faz o botão ser um bloco para permitir a margem automática funcionar */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px; /* Adiciona um pouco de espaço acima do botão */
+}
+
+button:hover {
+background-color: #4cae4c;
+}
+
+p {
+color: #2c3e50;
+font-size: 18px;
+margin-top: 0;
+}
+ /* Nome do criador do site  */
+/*footer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px; /* Espaço acima do rodapé */
+/*}*/
+/*
+footer p {
+    color: #666; /* Cor mais suave para o texto do rodapé */
+    /*font-size: 0.8em; *//* Um tamanho de fonte menor para o texto do rodapé */
+/*}*/
+ /* END Nome do criador do site  */
+
+button.copied {
+    background-color: #4cae4c; /* Verde mais claro, por exemplo */
+    color: white;
+}
+
+button[onclick="copyPassword()"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px; /* Espaço acima do botão */
+    display: block; /* Isso fará com que o botão ocupe a largura total
+    do contêiner. Se você preferir que ele tenha uma largura automática e fique apenas tão grande quanto o texto, você pode mudar isso para 'inline-block'. */
+}
+
+button[onclick="copyPassword()"]:hover {
+background-color: #4cae4c; /* Uma cor ligeiramente mais clara para o hover */
+}
